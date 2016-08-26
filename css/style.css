@@ -1,3 +1,27 @@
+body{
+    background-color: cadetblue;
+}
 .header{
     color: white;
+    background-color: #808080;
+}
+.main-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-menu li{
+    display: inline;
+    margin-right: 60px;
+    white-space:nowrap;
+}
+.main-menu li:nth-child(4){
+    margin-right: 45px;
+}
+.main-menu a{
+    text-decoration: none;
+    color:white;
+}
+.main-menu a:hover{
+    background-color: #00a5ff;
 }
