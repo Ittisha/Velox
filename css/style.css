@@ -2,21 +2,25 @@ body{
     background-color: cadetblue;
 }
 .header{
+    background: #808080 url("../images/header_bg.png") no-repeat;
     color: white;
-    background-color: #808080;
+    height: 712px;
+
 }
 .header img{
-    float:left;
+    float: left;
     margin-top:25px;
     margin-left:115px;
+
 }
 .main-menu{
-    float:right;
-    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 8pt;
+    font-weight: 700;
+    float: right;
+    margin: 38px 55px 0 0;
     padding: 0;
     list-style: none;
-    margin-top:40px;
-    margin-right:115px;
 }
 .main-menu li{
     display: inline;
@@ -33,6 +37,30 @@ body{
 .main-menu a:hover{
     background-color: #00a5ff;
 }
+
+.header .slogan{
+    clear:both;
+}
 .header h1{
-    clear: both;
+    padding-top:220px;
+    text-align: center;
+}
+.header p{
+    text-align: center;
+}
+.header form{
+    width: 320px;
+    margin: 0 auto;
+}
+.header form input{
+    width:320px;
+    height: 73px;
+    border:0;
+    border-radius:32px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17pt;
+    font-weight: 700;
+    color:white;
+    background-color: #00a5ff;
 }
