@@ -40,19 +40,19 @@ body{
 
 .header .slogan{
     clear:both;
-}
-.header h1{
     padding-top:220px;
     text-align: center;
 }
-.header p{
+.header div:last-of-type{
     text-align: center;
+    margin: 55px 0 95px 0;
+
 }
 .header form{
     width: 320px;
     margin: 0 auto;
 }
-.header form input{
+.header form>input{
     width:320px;
     height: 73px;
     border:0;
@@ -63,4 +63,10 @@ body{
     font-weight: 700;
     color:white;
     background-color: #00a5ff;
+}
+.header form>input:hover{
+    background-color: darkcyan;
+}
+.features .features_name{
+
 }
